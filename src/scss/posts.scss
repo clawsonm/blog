@@ -1,0 +1,81 @@
+
+@import 'variables';
+@import 'defaults';
+@import 'mixins';
+
+.posts {
+
+	&-header {
+		color: white;
+		font-size: 3rem;
+		font-weight: 300;
+		margin: 0;
+		padding: .3rem;
+		text-align: center;
+	}
+	&--post {
+		background-color: white;
+		@include my-box-shadow;
+		margin-bottom: 1.5rem;
+		padding: 1rem;
+
+		&-title {
+			border: .3rem solid $softGreen;
+			border-left: none;
+			border-right: none;
+			color: $textGrey;
+			display: block;
+			font-size: 1.5rem;
+			padding: 10px;
+
+			&:hover,&:active {
+				border-color: $softGold;
+				color: $textGrey;
+				text-decoration: none;
+			}
+		}
+
+		&-excerpt {
+			font-style: italic;
+			margin: -10px 15px 10px;
+		}
+	}
+}
+
+.post {
+
+	&--title {
+		color: white;
+		font-size: 2.5rem;
+		font-weight: 300;
+		margin: 0;
+		padding: .6rem;
+		text-align: center;
+	}
+
+	&--info {
+		background-color: white;
+		@include my-box-shadow;
+		color: $textGrey;
+		margin-bottom: 1rem;
+		padding: .5rem 1rem;
+
+		&-author {
+			font-size: 1rem;
+			font-weight: 700;
+			margin: .3rem 0;
+		}
+		&-dates {
+			font-size: .8rem;
+			font-style: italic;
+			margin: 0;
+		}
+	}
+
+	&--body {
+		background-color: white;
+		@include my-box-shadow;
+		margin-bottom: 1rem;
+		padding: .5rem;
+	}
+}

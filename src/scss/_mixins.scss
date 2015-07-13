@@ -1,0 +1,5 @@
+@import 'variables';
+
+@mixin my-box-shadow () {
+	box-shadow: .15rem .25rem $softDarkBlue;
+}

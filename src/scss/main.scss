@@ -1,0 +1,107 @@
+// main scss
+
+@import 'variables';
+@import 'defaults';
+@import 'nav';
+@import 'mixins';
+
+.page {
+	&-wrapper {
+		padding: 10px;
+		margin: 0 auto;
+		max-width: 1120px;
+	}
+	&--header {
+		background-color: $softGreen;
+		@include my-box-shadow;
+		display: table;
+		margin-bottom: 1rem;
+		min-height: 10rem;
+		width: 100%;
+
+		> * {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	&--content {
+		@media (min-width: 900px) {
+			float: left;
+			width: 68%;
+		}
+	}
+	&--sidebar {
+		@media (min-width: 900px) {
+			float: right;
+			width: 30%;
+		}
+
+	}
+}
+
+.sidebar {
+	background-color: white;
+	@include my-box-shadow;
+	padding: 1rem;
+
+	
+
+	&--image {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+		max-width: 200px;
+		width: 80%;
+	}
+	&--name {
+		font-weight: 300;
+		text-align: center;
+	}
+	&--social {
+		font-size: .8rem;
+		font-style: italic;
+		text-align: center;
+	}
+	&--handle {
+		font-weight: 700;
+	}
+	&--about {
+		&--header {
+			font-size: 2rem;
+		}
+	}
+}
+
+article {
+	h1, h2, h3, h4, h5, h6 {
+		border-bottom: .3rem $softBlue solid;
+		font-size: 1.5rem;
+		font-weight: 700;
+		margin: .5rem 0;
+		padding: .5rem;
+	}
+	h3, h4, h5, h6 {
+		font-size: 1rem;
+	}
+	h5, h6 {
+		font-style: italic;
+		font-weight: 300;
+	}
+
+	h2, h4, h6 {
+		border-color: $softGreen;
+	}
+
+	p {
+		padding: .25rem;
+	}
+
+	a {
+		text-decoration: underline;
+		&:hover {
+			border: none;
+		}
+	}
+}
+
+@import 'about';

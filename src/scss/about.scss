@@ -1,0 +1,21 @@
+@import 'variables';
+@import 'defaults';
+@import 'mixins';
+
+.about {
+	&--title {
+		color: white;
+		font-size: 2.5rem;
+		font-weight: 300;
+		margin: 0;
+		padding: .6rem;
+		text-align: center;
+	}
+
+	&--body {
+		background-color: white;
+		@include my-box-shadow;
+		margin-bottom: 1rem;
+		padding: .5rem;
+	}
+}

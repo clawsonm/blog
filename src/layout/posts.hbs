@@ -1,0 +1,28 @@
+{{#extend "layout"}}
+  {{#content "page_header"}}
+<h1 class="posts-header">Posts</h1>
+  {{/content}}
+
+  {{#content "main"}}
+<div class="posts">
+  {{#if collections.posts}}
+    {{#each posts}}
+      <div class="posts--post">
+        <a class="posts--post-title" href="/{{path}}/">
+          {{title}}
+        </a>
+        <div class="posts--post-excerpt">
+          {{{excerpt}}}
+        </div>
+      </div>
+    {{/each}}
+  {{else}}
+    <h2 class="posts--empty">These are not the posts you're looking for</h2>
+  {{/if}}  
+</div>
+  {{/content}}
+
+  {{#content "styles"}}
+<link rel="stylesheet" type="text/css" href="/css/posts.css">
+  {{/content}}
+{{/extend}}

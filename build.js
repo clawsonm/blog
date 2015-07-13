@@ -70,7 +70,7 @@ var site = metalsmith(__dirname)
 		port: 8080,
 		verbose: true
 	}))
-	.use(ignore('*.hbs'))
+	.use(ignore('layout/**/*'))
 	.use(watch({
 		paths: {
 			"${source}/**/*": true,

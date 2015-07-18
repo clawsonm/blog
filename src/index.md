@@ -7,7 +7,7 @@ template: home.hbs
 
 I'm a twenty something year old web developer living in Provo, Utah, working for Blendtec ([www.blendtec.com](http://www.blendtec.com)). I'm currently the lead developer, responsible for managing projects, organizing sprints, and setting technical direction for the dev team in conjunction with the Director of IT and our Digital Marketing Manager. I fight fires, go to meetings, fix bugs, and do most of the work for our sites and projects other than Blendtec.com.
 
-I am a full stack developer with all the pros and cons of that title (see [The Myth of the Full-stack Developer](http://andyshora.com/full-stack-developers.html)). I can teach myself anything. I can do anything. I come from a more backend background, but I'm currently having fun exploring Node, ES6/ES2015, React, etc.
+I am a full stack developer with all the pros and cons of that title (see [The Myth of the Full-stack Developer](http://andyshora.com/full-stack-developers.html)). I have reached the point where I can do aynthing, learn anything, but I know so little of everything that it's humbling and sometimes more than a little scary. I come from a more backend background, but I'm currently having fun exploring Node, ES6/ES2015, and JavaScript in general.
 
 First programming language was a BASIC interpreter copyright 1980 on an old TSR-80 Model 100 of my Dad's. I graduated to Visual Basic, and then Java, and C. Learned PHP for a job and been working in that language primarily since.
 
@@ -23,11 +23,11 @@ First developement job was helping out a family friend. His daughters took dance
 
 Served a two year fulltime mission for The Church of Jesus Christ of Latter-day Saints. When I came back I got a help desk job, but graduated up to a web programmer position in just a semester (this was a student job). This is where I first worked in an MVC environment (still PHP though). The largest project I worked on was the system that managed the university's student organizations, including automated Drupal installs, and CPanel access.
 
-When I left BYU I got lucky and found my current job at Blendtec. We make the world's most advanced blenders. I remember feeling so anxious that I would get a job where I didn't believe in the product. But I got lucky and not only got that but a boss and coworkers who believed in me and helped me to excel. Mostly we've used [CakePHP](http://www.cakephp.org), but I've also gained some experience with Django, and Wordpress. I've written utility scripts in Bash, Python, PHP, and JavaScript, and deploy scripts in Bash, and Ruby.
+When I left BYU I got lucky and found my current job at Blendtec. We make the world's most advanced blenders. I remember feeling so anxious that I would get a job where I didn't believe in the product. But I got lucky and not only got that but a boss and coworkers who believed in me and helped me to excel. Mostly we've used [CakePHP](http://www.cakephp.org), but I've also gained some experience with Django, and Wordpress (because someone has to do it). I've written utility scripts in Bash, Python, PHP, and JavaScript, and deploy scripts in Bash, and Ruby (Chef cookbooks).
 
 I've helped to take our website from an FTP and Pray deploy strategy with no code standards to an automated Continuous Integration workflow including linting, code review, Jenkins CI, multple staging environments, single command, no down time deploy to production, etc. I've helped move our infrastructure from a physical server, to ephemeral Amazon EC2 instances automated with Amazon OpsWorks and Chef cookbooks.
 
-I've also worked on Blendtec's, as yet unpublished, iOS app. I was primary developer for an iOS 6/7 version of the app that was scratched, and assisted significantly on a newer version.
+I've also worked on a couple unpublished iOS apps for Blendtec in iOS 6/7 and iOS 8 and soon iOS 9. 
 
 ## Social
 
